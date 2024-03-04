@@ -1,0 +1,41 @@
+.navigation-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.navigation-card {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    margin: 40px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navigation-card:hover {
+    transform: scale(1.05);
+}
+
+.navigation-card h2 {
+    margin-bottom: 10px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
